@@ -8,3 +8,5 @@ puts "Where would you like to go?"
 
 number = gets.strip
 input_to_index(number)
+
+display_board(input_to_index(number))
