@@ -4,11 +4,12 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 puts "Welcome to Tic Toc Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 
-num = gets.strip
-input_to_index(num)
+user_input = gets.strip
+input_to_index(user_input)
 
-move(board, input_to_index(index))
+move(board, input_to_index(user_input))
 
 display_board(board)
