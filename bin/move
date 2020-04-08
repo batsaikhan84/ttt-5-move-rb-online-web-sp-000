@@ -11,4 +11,4 @@ input_to_index(index)
 
 move(board, input_to_index)
 
-display_board(board)
+display_board(move)
